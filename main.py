@@ -356,11 +356,6 @@ async def copy_emoji(ctx, emoji_name_or_id: str, guild_name_or_id: str):
 
 
 
-
-
-
-
-
 @bot.event
 async def on_ready():
     print(f'Logged in as {bot.user.name} (ID: {bot.user.id})')

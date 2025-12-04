@@ -1,0 +1,19 @@
+{
+  "api": {
+    "base_url": "https://emoji.gg/api",
+    "cache_ttl": 3600,
+    "rate_limit_per_user": 10,
+    "rate_limit_window": 60
+  },
+  "emoji_quality": {
+    "min_favorites": 0,
+    "min_file_size": 100,
+    "max_file_size": 256000,
+    "excluded_categories": [],
+    "adult_filter_enabled": true
+  },
+  "defaults": {
+    "upload_limit": 50,
+    "search_limit": 10
+  }
+}
